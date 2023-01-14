@@ -1,0 +1,161 @@
+/* font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&display=swap');
+
+
+/* universal styles */
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+
+/* header-styles */
+
+header{
+    background-color: #f9f0f2;
+    margin-top: 0px;
+}
+
+/* -------------
+    nav styles
+---------------- */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .nav-title{
+      font-size: 45px;
+      font-weight: 700;
+  }
+  
+  .nav-list ul{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+      justify-items: center;
+  }
+  .nav-list ul li{
+      list-style: none;
+      font-size: 18px;
+      font-weight: 500;
+      
+  }
+  
+  .nav-list ul li a{
+      text-decoration: none;
+      color: black;
+  }
+
+
+
+.header-wrapper {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+h1.sec-title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.sec-description {
+    font-size: 17px;
+    color: #727272;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 9px;
+    background: orange;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.header-img img{
+    width: 100%;
+}
+
+
+/* feature section styles*/
+
+
+
+.container-2{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.sec-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.section-content {
+    text-align: left;
+}
+
+h2 {}
+
+.section-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #727272;
+}
+
+.black-title {
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+
+.orange-title {
+    font-size: 45px;
+    color: orange;
+    font-weight: 700;
+}
+
+.section-description{
+    font-size: 17px;
+    color: #727272;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 0px;
+}
