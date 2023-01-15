@@ -167,7 +167,9 @@ h2 {}
 
 /* feature enjoy and love section styles */
 
-
+.feature-sec-container{
+    position: relative;
+}
 .content-part{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -200,4 +202,121 @@ h2 {}
     padding: 15px;
     border-radius: 10px;
     box-shadow:0px 8px 40px rgb(12 12 12 / 20%);
+}
+
+.btn-part {
+    position: absolute;
+    right: 300px;
+    bottom: -65px;
+    background: orange;
+    padding: 35px 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.year {
+    font-size: 65px;
+    color: wheat;
+    font-weight: 700;
+}
+
+.experience {
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+}
+
+
+/* fact section styles */
+
+
+#fact-section{
+    margin-top: 150px;
+
+}
+.fact-content p{
+    text-align: left;
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: 500;
+    color:  #727272;
+
+}
+
+h2.sec-heading {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+
+.facts-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.facts {
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 35px;
+    text-align: center;
+}
+
+
+.facts h3 {
+    font-size: 45px;
+    color: #444242;
+    font-weight: 600;
+}
+
+.facts span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7e7c7c;
+}
+
+
+
+/* logo section styles */
+
+
+.sec-heading {
+    margin-top: 150px;
+}
+
+.sec-heading h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.sec-heading p {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    margin-top: 45px;
+}
+
+.logo img{
+    filter: grayscale(1);
+}
+
+
+.footer-content {
+    margin-top: 120px;
+    margin-bottom: 150px;
+    text-align: center;
+    padding: 33px;
+    background: #f3dade;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #525151;
 }
