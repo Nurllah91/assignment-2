@@ -317,6 +317,65 @@ h2.sec-heading {
     filter: grayscale(1);
 }
 
+/* contact section styles  */
+
+h3.contact-sec-hading {text-align: center;font-size: 35px;color: #e78f8f;padding-top: 50px;}
+
+.contact-sec {
+    margin-top: 100px;
+    background: #a2efda69;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sec-description span {
+    display: flex;
+    margin-left: 20%;
+}
+
+.social-media {
+    margin-top: 15%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin-left: 20%;
+   
+}
+
+h3.msg-sec-heading {
+    font-size: 25px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+textarea#text-area {
+    border: none;
+    padding: 2%;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
+
+input#submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #fdc117;
+    font-weight: 600;
+    color: white;
+}
+
+/* footer styles */
 
 .footer-content {
     margin-top: 120px;
@@ -390,6 +449,17 @@ h2.sec-heading {
 }
 .sec-image img{
     width: 100%;
+}
+
+/* contact section */
+.contact-container{
+    grid-template-columns: repeat(1,1fr);
+    
+    
+
+}
+.massage-sec{
+    margin-left: 15%;
 }
 
 
