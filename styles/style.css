@@ -27,6 +27,8 @@
 header{
     background-color: #f9f0f2;
     margin-top: 0px;
+    padding: 1px 0px;
+    margin-bottom: 80px;
 }
 
 /* -------------
@@ -120,6 +122,8 @@ h1.sec-title {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
+    margin-bottom: 100px;
+
 }
 
 .sec-image{
@@ -158,4 +162,42 @@ h2 {}
     font-weight: 400;
     text-align: left;
     margin: 20px 0px;
+}
+
+
+/* feature enjoy and love section styles */
+
+
+.content-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 55px;
+}
+
+
+.feature-sec-heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    padding-left: 20px;
+    border-left: 5px solid orange;
+}
+
+.section-description {}
+
+.sec-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+
+.features {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:0px 8px 40px rgb(12 12 12 / 20%);
 }
